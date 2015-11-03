@@ -1,5 +1,7 @@
 # Azure Resource Manager QuickStart Templates
 
+[![Build Status](https://travis-ci.org/sedouard/azure-quickstart-templates.svg)](https://travis-ci.org/sedouard/azure-quickstart-templates)
+
 # Template index
 A searchable template index is maintained at https://azure.microsoft.com/en-us/documentation/templates/
 
