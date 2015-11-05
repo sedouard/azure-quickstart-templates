@@ -1,5 +1,6 @@
 # Azure Resource Manager QuickStart Templates
 
+
 # Template index
 A searchable template index is maintained at https://azure.microsoft.com/en-us/documentation/templates/
 
