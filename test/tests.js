@@ -13,6 +13,7 @@ function getModifiedPaths() {
   assert.ok(process.env.TRAVIS_COMMIT_RANGE, 'VALIDATE_MODIFIED_ONLY requires TRAVIS_COMMIT_RANGE to be set to [START_COMMIT_HASH]...[END_COMMIT_HASH]');
   var rangeStart = process.env.TRAVIS_COMMIT_RANGE.split('...')[0];
   var rangeEnd = process.env.TRAVIS_COMMIT_RANGE.split('...')[1];
+  debug('git diff --name-only ' + rangeStart + ' ' + rangeEnd);
   var stdout = execSync('git diff --name-only ' + rangeStart + ' ' + rangeEnd, {
     encoding: 'utf8'
   });
